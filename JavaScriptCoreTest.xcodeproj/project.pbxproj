@@ -73,6 +73,7 @@
 		8DA06AC52987BC9600569680 /* JavaScriptCoreTest */ = {
 			isa = PBXGroup;
 			children = (
+				8DA06AEA2988B45100569680 /* Resource */,
 				8DA06AC62987BC9600569680 /* AppDelegate.h */,
 				8DA06AC72987BC9600569680 /* AppDelegate.m */,
 				8DA06AC92987BC9600569680 /* SceneDelegate.h */,
@@ -82,8 +83,6 @@
 				8DA06AE72987D89700569680 /* MyPointExports.h */,
 				8DA06AE42987D84600569680 /* MyPoint.h */,
 				8DA06AE52987D84600569680 /* MyPoint.m */,
-				8DA06AE82988AD0D00569680 /* geometryScript.js */,
-				8DA06AE22987BDD400569680 /* test.js */,
 				8DA06ACF2987BC9600569680 /* Main.storyboard */,
 				8DA06AD22987BC9700569680 /* Assets.xcassets */,
 				8DA06AD42987BC9700569680 /* LaunchScreen.storyboard */,
@@ -99,6 +98,15 @@
 				8DA06AE02987BCC100569680 /* JavaScriptCore.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8DA06AEA2988B45100569680 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				8DA06AE82988AD0D00569680 /* geometryScript.js */,
+				8DA06AE22987BDD400569680 /* test.js */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
