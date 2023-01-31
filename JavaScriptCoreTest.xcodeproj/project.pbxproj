@@ -16,6 +16,8 @@
 		8DA06AD92987BC9700569680 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DA06AD82987BC9700569680 /* main.m */; };
 		8DA06AE12987BCC100569680 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DA06AE02987BCC100569680 /* JavaScriptCore.framework */; };
 		8DA06AE32987BDD400569680 /* test.js in Resources */ = {isa = PBXBuildFile; fileRef = 8DA06AE22987BDD400569680 /* test.js */; };
+		8DA06AE62987D84600569680 /* MyPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DA06AE52987D84600569680 /* MyPoint.m */; };
+		8DA06AE92988AD0D00569680 /* geometryScript.js in Resources */ = {isa = PBXBuildFile; fileRef = 8DA06AE82988AD0D00569680 /* geometryScript.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,10 @@
 		8DA06AD82987BC9700569680 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8DA06AE02987BCC100569680 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		8DA06AE22987BDD400569680 /* test.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = test.js; sourceTree = "<group>"; };
+		8DA06AE42987D84600569680 /* MyPoint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyPoint.h; sourceTree = "<group>"; };
+		8DA06AE52987D84600569680 /* MyPoint.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyPoint.m; sourceTree = "<group>"; };
+		8DA06AE72987D89700569680 /* MyPointExports.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyPointExports.h; sourceTree = "<group>"; };
+		8DA06AE82988AD0D00569680 /* geometryScript.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = geometryScript.js; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +79,10 @@
 				8DA06ACA2987BC9600569680 /* SceneDelegate.m */,
 				8DA06ACC2987BC9600569680 /* ViewController.h */,
 				8DA06ACD2987BC9600569680 /* ViewController.m */,
+				8DA06AE72987D89700569680 /* MyPointExports.h */,
+				8DA06AE42987D84600569680 /* MyPoint.h */,
+				8DA06AE52987D84600569680 /* MyPoint.m */,
+				8DA06AE82988AD0D00569680 /* geometryScript.js */,
 				8DA06AE22987BDD400569680 /* test.js */,
 				8DA06ACF2987BC9600569680 /* Main.storyboard */,
 				8DA06AD22987BC9700569680 /* Assets.xcassets */,
@@ -149,6 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DA06AD62987BC9700569680 /* LaunchScreen.storyboard in Resources */,
+				8DA06AE92988AD0D00569680 /* geometryScript.js in Resources */,
 				8DA06AD32987BC9700569680 /* Assets.xcassets in Resources */,
 				8DA06AE32987BDD400569680 /* test.js in Resources */,
 				8DA06AD12987BC9600569680 /* Main.storyboard in Resources */,
@@ -165,6 +176,7 @@
 				8DA06ACE2987BC9600569680 /* ViewController.m in Sources */,
 				8DA06AC82987BC9600569680 /* AppDelegate.m in Sources */,
 				8DA06AD92987BC9700569680 /* main.m in Sources */,
+				8DA06AE62987D84600569680 /* MyPoint.m in Sources */,
 				8DA06ACB2987BC9600569680 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
